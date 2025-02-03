@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    overflow: hidden;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.header {
+    font-size: 14px;
+    text-align: left;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-left:10px;
+    margin-top: 0px;
+    display: flex;
+    line-height: 0.5px;
+}
+
+.variation {
+    margin-left: 50px;
+    padding: 0px;
+}
+
+.links {
+    margin-left: 890px;
+}
+
+.version-link a{
+    padding: 0px;
+    color:#ffffff;
+}
+
+.version-link a:hover { color: #9f9f9f; }
+
+
+.poem-container {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 80vh; 
+    width: 100%; 
+    text-align: center; 
+}
+
+.word {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+@keyframes scaleWords {
+    0% { transform: scale(1); }
+    50% { transform: scale(2); }
+    100% { transform: scale(1); }
+}
+
+.word:nth-child(1) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 0s; }
+.word:nth-child(2) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 0.3s; }
+.word:nth-child(3) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 0.6s; }
+.word:nth-child(4) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 0.9s; }
+.word:nth-child(5) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 1.2s; }
+.word:nth-child(6) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 1.5s; }
+.word:nth-child(7) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 1.8s; }
+.word:nth-child(8) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 2.1s; }
+.word:nth-child(9) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 2.4s; }
+.word:nth-child(10) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 2.7s; }
+.word:nth-child(11) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 3s; }
+.word:nth-child(12) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 3.3s; }
+.word:nth-child(13) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 3.6s; }
+.word:nth-child(14) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 3.9s; }
+.word:nth-child(15) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 4.2s; }
+.word:nth-child(16) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 4.5s; }
+.word:nth-child(17) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 4.8s; }
+.word:nth-child(18) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 5.1s; }
+.word:nth-child(19) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 5.4s; }
+.word:nth-child(20) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 5.7s; }
+.word:nth-child(21) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 6s; }
+.word:nth-child(22) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 6.3s; }
+.word:nth-child(23) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 6.6s; }
+.word:nth-child(24) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 6.9s; }
+.word:nth-child(25) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 7.2s; }
+.word:nth-child(26) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 7.5s; }
+.word:nth-child(27) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 7.8s; }
+.word:nth-child(28) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 8.1s; }
+.word:nth-child(29) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 8.4s; }
+.word:nth-child(30) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 8.7s; }
+.word:nth-child(31) { animation: scaleWords 3s infinite ease-in-out; animation-delay: 9s; }

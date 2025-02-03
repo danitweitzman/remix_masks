@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    overflow: hidden;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.header {
+    font-size: 14px;
+    text-align: left;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-left:10px;
+    margin-top: 0px;
+    display: flex;
+    line-height: 0.5px;
+}
+
+.variation {
+    margin-left: 50px;
+    padding: 0px;
+}
+
+.links {
+    margin-left: 890px;
+}
+
+.version-link a{
+    padding: 0px;
+    color:#ffffff;
+}
+
+.version-link a:hover { color: #9f9f9f; }
+
+.poem-container {
+    margin-top: 300px;
+    font-family: Helvetica, sans-serif;
+    width: 100vw;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+}
+
+.poem-wrapper {
+    display: flex;
+    white-space: nowrap;
+    animation: slide 20s linear infinite;
+}
+
+.poem-wrapper span {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 100px;
+}
+
+/* Keyframe animation */
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}

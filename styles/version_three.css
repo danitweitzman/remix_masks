@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    overflow: hidden;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.header {
+    font-size: 14px;
+    text-align: left;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-left:10px;
+    margin-top: 0px;
+    display: flex;
+    line-height: 0.5px;
+}
+
+.variation {
+    margin-left: 50px;
+    padding: 0px;
+}
+
+.links {
+    margin-left: 890px;
+}
+
+.version-link a{
+    padding: 0px;
+    color:#ffffff;
+}
+
+.version-link a:hover { color: #9f9f9f; }
+
+.maze-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(30, 10px); 
+    height: 80vh; 
+    margin-top: 200px;
+}
+
+.word {
+    font-size: 24px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.word:hover {
+    opacity: 1;
+    transform: scale(1.5);
+}
+
